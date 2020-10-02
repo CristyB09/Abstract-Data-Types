@@ -1,18 +1,18 @@
                                  # Abstract-Data-Types
                           1) Introduction to Abstract Data Types; 
       • A more specific definition:
-Abstract Data Types
-An Abstract Data Type (ADT) is a specification for a group of values and the operations on
-those values that is defined conceptually and independently of any programming
-language.
-(a data structure is an implementation of an ADT within a programming language) 
+      Abstract Data Types
+      An Abstract Data Type (ADT) is a specification for a group of values and the operations on
+      those values that is defined conceptually and independently of any programming
+      language.
+      (a data structure is an implementation of an ADT within a programming language) 
 
      • You may have already seen (and been been using) the implementation of an ADT when
-manipulating string values
-Abstract Data Types
+     manipulating string values
+     Abstract Data Types
      • Java’s String data type is an ADT that
      allows programs to manipulate strings
-    • A String is a sequence of Unicode
+     • A String is a sequence of Unicode
     characters
      • The API for String provides an interface
       for the ADT
@@ -51,7 +51,7 @@ Abstract Data Types
     • Check for empty
     • Add, remove objects 
     
-            Bag Behaviours
+           Bag Behaviours
     Since the bag contains a finite number of objects, one of its behaviours would be:
     Get the number of items currently in the bag
     • A related behavior:
@@ -67,7 +67,7 @@ Abstract Data Types
     Count the number of times a certain object occurs
     List all objects that are in the bag
     
-    Specifying a Bag
+           Specifying a Bag
     
     • Before we can implement a bag in Java we need to describe its data and specify in detail the
     methods (corresponding to the bag’s behaviours)
@@ -81,7 +81,7 @@ Abstract Data Types
     boolean isEmpty()
     • Next behaviour “Add a given object to the bag” leads to some design decisions . . . 
     
-    Specifying a Bag
+          Specifying a Bag
     
     We want to add a given object to the bag: we can name the method and give it a parameter to
     represent the new item:
@@ -131,7 +131,7 @@ Abstract Data Types
     and let the client display them (in any way they want): :
     T[] toArray()
     
-    Specifying a Bag (summary)
+          Specifying a Bag (summary)
     
     A complete list of our method signatures:
     int getCurrentSize()
@@ -149,7 +149,7 @@ Abstract Data Types
     
     • Implement the specification of the Bag abstract data type by creating a Java Interface Class
     
-                      Scenario
+                    Scenario
                         
     • Create a new Java project called Bag and provide the interface in a file called
     BagInterface.java
